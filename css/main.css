@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+ }
+ 
+ 
+ 
+ /* INICIO DE INDEX */
+ 
+ body{ 
+     font-family: 'Montserrat' , sans-serif;
+ }
+ 
+ 
+ h1{ 
+     color: #e4a4a9; 
+     font-size: 50px;
+     text-align: center;
+     margin: 0px;
+     text-decoration-line: underline;
+ 
+ }
+ 
+ @media screen and (max-width: 768px) {
+     h1{
+         color:#e9967a
+     }
+     nav{
+         flex-direction: column;
+     }
+     conteiner1 ul{
+         display: inline-block;
+     }
+ }
+ 
+ .nav{ 
+     background-image: url(../img/banner\ cafe\ inicio.jpg);
+     background-size: cover;
+  
+ }
+ 
+ .nav img{
+     width: 100px;
+     height: 100px;
+     border-radius: 40px;
+     margin: 10px;
+ }
+ 
+ .container1 a{
+     text-decoration: none ;
+     color: #e4a4a9;
+     font-size: 25px;
+     font-weight: bolder;
+     margin-left: 6px ;
+     margin-right: 6px;
+     
+ }
+ 
+ .container1 ul{
+     list-style: none;
+     
+ }
+ .header-contenedor nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-end;
+    padding: 5px;
+ }
+ 
+ .main h2{
+     font-size:30px;
+     margin-left: 15px;
+     color:  #e4a4a9;
+     padding: 10px ;
+ }
+ 
+ .main h3{
+     font-size: 25px ;
+     margin-left:15px ;
+     color:  #e4a4a9;
+     padding: 5px;
+ }
+ 
+ .main h4{
+     font-size: 25px ;
+     margin-left:15px ;
+     color:  #e4a4a9;
+ }
+ 
+ .main p{
+     font-size: 20px ;
+     margin:0px;
+     color:  #e4a4a9;
+     padding: 10px ;
+     text-align: left;
+     width: 50%;
+ }
+ 
+ 
+ .main{
+     background-image: url(../img/fondocafe.jpg);
+     background-size: cover;
+     
+ }
+ 
+ .footer1 h3{
+     font-size:15px;
+     color: #e4a4a9;
+     margin: 15px;
+ 
+ }
+ 
+ .footer1{
+     background-image: url(../img/banner\ cafe\ inicio\ 2.jpg);
+     background-size: 300px;
+ }
+ 
+ .footer1 img{
+     height: 50px;
+     width: 50px;
+ 
+ }
+ 
+ .footer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+ 
+ }
+ 
+ /* FIN DE INDEX */
+ 
+ 
+ 
+ /* PRODUCTOS */
+ 
+ .main-productos{
+     background-image: url(../img/fondocafe.jpg);
+     background-size:cover;
+     display: grid;
+     grid-template-columns: 1fr 2fr;
+     grid-template-rows: 100%;
+     grid-column-gap: 10 px;
+     grid-row-gap: 10px ;
+     display: flex
+    
+ }
+ 
+ 
+ .productos1{
+    
+     font-size: 25px;
+     text-decoration-line: underline;
+     color: #e4a4a9;
+     text-align: left;
+     margin: 10px;
+ 
+ }
+ 
+ .cafeimg {
+  margin:20px;
+  max-width:50rem;
+  max-height: 50rem;
+ }
+ 
+ .kilogramo{
+     font-size: 25px;
+     color:  #e4a4a9;
+     margin:20px;
+     padding: 5px;
+ }
+ 
+ /* FIN PRODUCTOS */
+ 
+ 
+ 
+ /* INICIO SUCURSALES */
+ 
+ .main-sucursales{
+     background-image: url(../img/fondocafe.jpg);
+     background-size:cover;
+ }
+ .direcciones1{
+     font-size: 20px;
+     color: #e4a4a9;
+     text-align: left;
+     margin: 10px;
+     padding: 10px ;
+     text-align: left;
+     width: 55%;
+ }
+ 
+ .sucursales1{
+     font-size:30px;
+     margin-left: 15px;
+     color:  #e4a4a9;
+     padding: 10px ;text-decoration-line: underline;    
+ }
+ 
+ .sucursales2{
+     font-size:15px;
+     margin-left: 15px;
+     color:  #e4a4a9;
+ }
+ 
+ .iframe1{
+    margin-left: 20px;
+ }
+ 
+ /* FIN SUCURSALES */
+ 
+ 
+ /* INICIO DE CONTACTO */
+ 
+ .main-contacto{
+     background-image: url(../img/fondocafe.jpg);
+     background-size:cover;
+ }
+ 
+ .contacto1{
+     font-size:30px;
+     margin-left: 15px;
+     color:  #e4a4a9;
+     padding: 10px ;
+     text-decoration-line: underline;
+ }
+ 
+ .contacto2{
+     font-size:20px;
+     margin-left: 15px;
+     color:  #e4a4a9;
+     padding: 8px;
+ }
+ 
+ .contacto3{
+     font: size 25px;
+     margin-left: 15px;
+     color:  #e4a4a9;
+     padding: 10px;
+     
+ }
+ 
+ .contacto4{
+     font: size 20px;
+     margin-left: 15px;
+     color:  #e4a4a9;
+     padding: 10px;
+ 
+ }
+ 
+ .contacto5{
+     font: size 20px;
+     margin-left: 150px;
+     padding: 10px;
+ 
+ }
+ 
+ /* FIN CONTACTOS */
+ 
+ 
+ 
+ /* INICIO DE SALE */
+ 
+ .main-sale{
+     background-image: url(../img/fondocafe.jpg);
+     background-size:cover;
+    
+ }
+ 
+ .sale01{ grid-template-areas: 
+     "sale1 sale1"
+     "sale2 sale2"
+     ;
+ 
+ }
+ .sale1{
+     font-size: 25px;
+     text-decoration-line: underline;
+     color: #e4a4a9;
+     text-align: left;
+     margin: 10px;
+     grid-area: sale1;
+ }
+ 
+ .cafeteraimg{
+     margin:20px;
+     max-width:15rem;
+     max-height:15rem;
+ }
+ 
+ .sale2{
+     font-size: 15px;
+     color:  #e4a4a9;
+     padding-left: 20px;
+     grid-area: sale2;
+ }
+ 
+ /* FIN SALE */
