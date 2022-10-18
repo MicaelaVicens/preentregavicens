@@ -41,7 +41,6 @@
  }
  
 
-
  h1{ 
      color: #e4a4a9; 
      font-size: 50px;
@@ -51,8 +50,6 @@
  
  }
  
-
-
  
  .nav{ 
      background-image: url(../img/banner\ cafe\ inicio.jpg);
@@ -182,7 +179,7 @@
  
  /* PRODUCTOS */
  
- .main-productos{
+ .main-productos {
      background-image: url(../img/fondocafe.jpg);
      background-size:cover;
      display: grid;
@@ -211,13 +208,7 @@
   max-height: 50rem;
  }
  
- .kilogramo{
-     font-size: 25px;
-     color:  #e4a4a9;
-     margin:20px;
-     padding: 5px;
- }
- 
+
  /* FIN PRODUCTOS */
  
  
